@@ -103,7 +103,7 @@ def save_preview_image(arr, path='world_preview.png', cell=4):
 
 def demo(width=100, height=50, scale=0.04, octaves=6, live=True):
     seed = random.randint(0, 999999)
-    print(f"🌱 Rastgele seed: {seed}")
+    print(f"🌱 Random seed: {seed}")
     arr = fractal_noise(width, height, seed, scale=scale, octaves=octaves, live=live)
     os.system("clear")
     print("🌏 Map:")
