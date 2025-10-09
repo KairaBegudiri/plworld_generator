@@ -10,12 +10,12 @@ Each time you run it, it creates a different world with mountains, grasslands, a
 
 ## Any OS:
 Requirements:
-```sh
+```python
 pip install -r requirements.txt
 ```
 
 Run:
-```sh
+```python
 python main.py
 ```
 
